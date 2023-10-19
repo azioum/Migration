@@ -1,0 +1,379 @@
+
+[
+
+ 
+  [
+    "name" : "calculateAccelerationFees",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration"),
+        "legitime" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "calculate Acceleration Fees",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+    [
+    "name" : "getEngagementStatus",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "get Engagement Status",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+    [
+    "name" : "setOccPaiement",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "set OCC Paiement",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+    [
+    "name" : "setGpsPaiement",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "adjust balance",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "adjustBalanceBscs",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "adjust balance Bscs",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "adjustBalanceIN",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "adjust balance IN",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+    [
+    "name" : "getConditionsElligibility",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "get Conditions and Elligibility",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+    [
+    "name" : "identifyMigrationCategory",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "identify Migration Category",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+    [
+    "name" : "identifyMigrationType",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "identify Migration Type",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "notification",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "notification",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "getBalancesBSCS",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "get Balances in BSCS",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "getCugBSCS",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "get CUG in BSCS",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "getBalancesIN",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "get Balances in IN",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "getCugIN",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "get CUG in IN",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+   [
+    "name" : "desactivateNonCommonServices",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "desactivate Non Common Services",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "activateServiceCore",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "activate Service Core",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "addOCCPayableMigration",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "add OCC for Payable Migration",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "calculateProrata",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "calculate Prorata",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "prepareMigration",
+    "parameters" : [
+        "msisdn": new StringDataType(),
+        "tmcode_initial":new StringDataType(),
+        "tmcode_cible":new StringDataType(),
+        "tm_code_init_desc":new StringDataType(),
+        "user_id":new StringDataType(),
+        "user_group":new StringDataType(),
+        "duedate":new StringDataType(),
+        "ListSncode":new ObjectDataType("java.util.List"),
+        "ServicesParamsID":new ObjectDataType("java.util.List"),
+        "ParamsIDParamsValues":new ObjectDataType("java.util.List"),
+        "tm_code_cible_desc":new StringDataType(),
+        "ServicesSPcode":new ObjectDataType("java.util.List")
+       
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "prepare Migration",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "changeRatePlan",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "change Rate Plan",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "verifyPending",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "verify Pending",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "addTickler",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "add Tickler",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "updateEffectiveDateOfMigration",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "update Effective Date",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "changeBillCycleWIH",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "adjust FAF",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "SetOccByReason",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "Set Occ By Reason",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "getMigrationGroup",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "get Migration Group",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "desactivateContract",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "desactivate Contract",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "createNewContract",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "create new Contract",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "activateNewContract",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "activate New Contract",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  [
+    "name" : "percistMigration",
+    "parameters" : [
+        "migration" : new ObjectDataType("migration.Migration")
+    ],
+    "results" : [
+        "Result" : new ObjectDataType("migration.Migration"),
+        "success": new BooleanDataType()
+    ],
+    "displayName" : "percist Migration",
+    "icon" : "defaultservicenodeicon.png"
+  ]
+
+]

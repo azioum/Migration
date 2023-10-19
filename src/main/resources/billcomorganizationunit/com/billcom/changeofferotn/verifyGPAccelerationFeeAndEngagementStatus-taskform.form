@@ -1,0 +1,80 @@
+
+<form id="955672433">
+<property name="name" value="verifyGPAccelerationFeeAndEngagementStatus-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="migration_obj_custCode" type="InputText" id="477914711">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;custCode (migration_obj)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="migration_obj/custCode"/>
+<property name="outputBinding" value="migration_obj/custCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="migration_obj_engagementMonthRemaining" type="InputTextPrimitiveLong" id="119594592">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;engagementMonthRemaining (migration_obj)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="migration_obj/engagementMonthRemaining"/>
+<property name="outputBinding" value="migration_obj/engagementMonthRemaining"/>
+<property name="fieldClass" value="long"/>
+</field>
+<field position="2" name="migration_obj_coCode" type="InputText" id="986788732">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;coCode (migration_obj)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="migration_obj/coCode"/>
+<property name="outputBinding" value="migration_obj/coCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="migration_obj_MSISDN" type="InputText" id="673877591">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="true"/>
+<property name="label" value="quot;enquot;,quot;MSISDN (migration_obj)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="migration_obj/MSISDN"/>
+<property name="outputBinding" value="migration_obj/MSISDN"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="migration_obj_migrationType" type="InputText" id="2028902087">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;migrationType (migration_obj)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="migration_obj/migrationType"/>
+<property name="outputBinding" value="migration_obj/migrationType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="migration_obj_accelerationFees" type="InputTextPrimitiveFloat" id="274438083">
+<property name="fieldRequired" value="true"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;accelerationFees (migration_obj)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="migration_obj/accelerationFees"/>
+<property name="outputBinding" value="migration_obj/accelerationFees"/>
+<property name="fieldClass" value="float"/>
+</field>
+<field position="6" name="migration_obj_AccelerationFeesUser" type="InputText" id="1679446121">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;AccelerationFeesUser (migration_obj)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="migration_obj/AccelerationFeesUser"/>
+<property name="outputBinding" value="migration_obj/AccelerationFeesUser"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="migration_obj_comments" type="InputText" id="403168761">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;comments (migration_obj)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="migration_obj/comments"/>
+<property name="outputBinding" value="migration_obj/comments"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="migration_obj" name="#E9E371" type="className" outId="migration_obj" value="migration.Migration" id="migration_obj"/>
+</form>

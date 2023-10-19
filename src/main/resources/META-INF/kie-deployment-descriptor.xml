@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deployment-descriptor xsi:schemaLocation="http://www.jboss.org/jbpm deployment-descriptor.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <persistence-unit>org.jbpm.domain</persistence-unit>
+    <audit-persistence-unit>org.jbpm.domain</audit-persistence-unit>
+    <audit-mode>JPA</audit-mode>
+    <persistence-mode>JPA</persistence-mode>
+    <runtime-strategy>PER_REQUEST</runtime-strategy>
+    <marshalling-strategies/>
+    <event-listeners/>
+    <task-event-listeners/>
+    <globals/>
+    <work-item-handlers>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new getCugIN.GetCugINWorkItemHandler()</identifier>
+            <parameters/>
+            <name>getCugIN</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new prepareMigration.PrepareMigrationWorkItemHandler()</identifier>
+            <parameters/>
+            <name>prepareMigration</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new adjustBalanceIN.AdjustBalanceINWorkitemHandler()</identifier>
+            <parameters/>
+            <name>adjustBalanceIN</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new hasPending.HasPendingWorkitem()</identifier>
+            <parameters/>
+            <name>hasPending</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new calculateAccelerationFees.CalculateAccelerationFeesWorkItem()</identifier>
+            <parameters/>
+            <name>calculateAccelerationFees</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new getBalancesIN.GetBalancesINWorkItemHandler()</identifier>
+            <parameters/>
+            <name>getBalancesIN</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new calculateProrata.CalculateProrataWorkItemHandler()</identifier>
+            <parameters/>
+            <name>calculateProrata</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new updateEffectiveDateOfMigration.UpdateEffectiveDateOfMigrationWorkItemHandler()</identifier>
+            <parameters/>
+            <name>updateEffectiveDateOfMigration</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new getCug_BSCS.GetCug_BSCSWorkItemHandler()</identifier>
+            <parameters/>
+            <name>getCugBSCS</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new identifyMigrationCategory.IdentifyMigrationCategoryWorkItemHandler()</identifier>
+            <parameters/>
+            <name>identifyMigrationCategory</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new getEngagementStatus.GetEngagementStatusWorkItemHandler()</identifier>
+            <parameters/>
+            <name>getEngagementStatus</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new createNewContract.CreateNewContractWorkitemHandler()</identifier>
+            <parameters/>
+            <name>createNewContract</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new validateAccelerationFees.ValidateAccelerationFeesWorkItemHandler()</identifier>
+            <parameters/>
+            <name>validateAccelerationFees</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new changeBillCycle.ChangeBillCycleWorkItemHandler()</identifier>
+            <parameters/>
+            <name>changeBillCycle</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new notification.NotificationWorkingItemHandler()</identifier>
+            <parameters/>
+            <name>notification</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new getBalances_BSCS.GetBalances_BSCSWorkItemHandler()</identifier>
+            <parameters/>
+            <name>getBalancesBSCS</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new addOCCPayableMigration.AddOCCPayableMigrationWorkItemHandler()</identifier>
+            <parameters/>
+            <name>addOCCPayableMigration</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new adjustFAF.AdjustFAFWorkitemHandler()</identifier>
+            <parameters/>
+            <name>adjustFAF</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new getMigrationOfferGroup.GetMigrationOfferGroupWorkitemHandler()</identifier>
+            <parameters/>
+            <name>getMigrationOfferGroup</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new identifyMigrationType.IdentifyMigrationTypeWorkItemHandler()</identifier>
+            <parameters/>
+            <name>identifyMigrationType</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new activateContract.ActivateContractWorkitemHandler()</identifier>
+            <parameters/>
+            <name>activateContract</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new activateServiceCore.ActivateServiceCoreWorkItemHandler</identifier>
+            <parameters/>
+            <name>activateServiceCore</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new addTickler.addTicklerWorkitemHandler()</identifier>
+            <parameters/>
+            <name>addTickler</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new adjustBalance.AdjustBalanceWorkitemHandler()</identifier>
+            <parameters/>
+            <name>adjustBalance</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new deactivateContract.DeactivateContractWorkitemHandler()</identifier>
+            <parameters/>
+            <name>deactivateContract</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new getConditions_elligibility.GetConditions_elligibilityWorkItemHandler()</identifier>
+            <parameters/>
+            <name>getConditionsElligibility</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new desactivateNonCommonServices.DesactivateNonCommonServicesWorkItemHandler()</identifier>
+            <parameters/>
+            <name>desactivateNonCommonServices</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new setGpsPaiement.SetGpsPaiementWorkItemHandler()</identifier>
+            <parameters/>
+            <name>setGpsPaiement</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new setOccPaiement.SetOccPaiementWorkItemHandler()</identifier>
+            <parameters/>
+            <name>setOccPaiement</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new changeRatePlan.ChangeRatePlanWorkItemHandler()</identifier>
+            <parameters/>
+            <name>changeRatePlan</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new adjustBalanceBscs.AdjustBalanceBscsWorkitemHandler()</identifier>
+            <parameters/>
+            <name>adjustBalanceBscs</name>
+        </work-item-handler>
+    </work-item-handlers>
+    <environment-entries/>
+    <configurations/>
+    <required-roles/>
+    <remoteable-classes>
+        <remoteable-class>migration.Migration</remoteable-class>
+    </remoteable-classes>
+    <limit-serialization-classes>false</limit-serialization-classes>
+</deployment-descriptor>
